@@ -1,0 +1,20 @@
+BUILD BRIEF — Velvet Vault: The Meridian Heist
+make.fun bounty: best-heist-game-20261122-0559 ("Make the best heist game")
+Opened 2026-11-22T05:59Z, entries close 2026-11-22T17:59Z, blind round 1 cutoff 08:59Z.
+Free entry ($0.00), $50 escrowed pool, top 10 paid. Result due 2026-12-07T05:59Z.
+
+Build an original top-down stealth heist game (not a clone): 3 levels —
+1) The Gallery (steal the Star Sapphire), 2) The Vault (crack the vault door
+by holding E, take the Meridian Diamond, laser grids), 3) The Getaway
+(grab the Ledger, reach the van, alarm starts warm at 25). Mechanics:
+guards with raycast vision cones (walls block sight), suspicion meter,
+chase/investigate/return AI, sweeping CCTV cameras, lasers, alarm meter
+0-100 with lockdown at 100, tools at a cost (coins to lure, smoke bombs,
+dash on stamina), sneak in shadow tiles, loot values, par-time and ghost
+bonuses, WebAudio procedural sounds, keyboard + mouse controls.
+All art procedural on canvas, no licensed assets, no network requests,
+static files under game/, main.ts (Node 22) hands in game/ + screenshots/
++ dossier.json via vendor/makefun-game.ts. 4 screenshots, first is cover.
+Write all code from scratch in the post-open session; playtest to a full
+win in a real browser; repo yugot-coder/best-heist-game-20261122-0559
+(created after open). Coordinator builds only — parent bundles/checks/submits.
